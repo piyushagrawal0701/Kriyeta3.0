@@ -1,5 +1,12 @@
 import React from "react";
 
+// ----------- IMPORT IMAGES ---------------- 
+
+import Img1 from '../../assets/Images/Howitworks/howitworks1.png'
+import Img2 from '../../assets/Images/Howitworks/howitworks2.png'
+import Img3 from '../../assets/Images/Howitworks/howitworks3.png'
+import Img4 from '../../assets/Images/Howitworks/howitworks4.png'
+
 const Howitworks = () => {
   return (
     <>
@@ -24,7 +31,7 @@ const Howitworks = () => {
               <div class="bg-gray-900 p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/720x400"
+                  src={Img1}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">
@@ -43,7 +50,7 @@ const Howitworks = () => {
               <div class="bg-gray-900 p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/721x401"
+                  src={Img2}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">
@@ -62,7 +69,7 @@ const Howitworks = () => {
               <div class="bg-gray-900 p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/722x402"
+                  src={Img3}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">
@@ -80,7 +87,7 @@ const Howitworks = () => {
               <div class="bg-gray-900 p-6 rounded-lg">
                 <img
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/723x403"
+                  src={Img4}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">
