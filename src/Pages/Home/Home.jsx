@@ -1,0 +1,20 @@
+import React from "react";
+import Hero1 from "../../Components/Hero Section/Hero1";
+// import Hero2 from "../../Components/Hero Section/Hero2";
+import Cards from "../../Components/Cards/Cards1/Cards1";
+import Hero3 from "../../Components/Hero Section/Hero3";
+
+const Home = () => {
+  return (
+    <>
+      <div className="w-[100%] h-screen flex justify-center items-center sm:border-b-2 sm:border-white">
+      <Hero1 />
+      </div>
+      {/* <Hero2/> */}
+      {/* <Hero3/> */}
+      {/* <Cards/> */}
+    </>
+  );
+};
+
+export default Home;
