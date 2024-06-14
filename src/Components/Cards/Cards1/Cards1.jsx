@@ -11,7 +11,7 @@ const Cards = () => {
 <section className="text-gray-600 body-font">
   <div className="container px-12 py-24 mx-auto">
     <div className="flex flex-wrap -mx-4">
-      <div className="w-full md:w-1/3 px-4 mb-8 drop-shadow-xl">
+      <div className="w-full md:w-1/3 px-4 mb-8 drop-shadow-xl cardHover">
         <div className="p-6  bg-gray-900 h-full">
           <img className="mx-auto mt-10 mb-8 w-24 h-24" src={cardIcon1} alt="Transaction" />
           <div className="text-center">
@@ -21,7 +21,7 @@ const Cards = () => {
           </div>
         </div>
       </div>
-      <div className="w-full md:w-1/3 px-4 mb-8 drop-shadow-xl">
+      <div className="w-full md:w-1/3 px-4 mb-8 drop-shadow-xl cardHover">
         <div className="p-6 bg-gray-900 h-full">
           <img className="mx-auto mt-10 mb-8 w-24 h-24" src={cardIcon2} alt="Fraud Detection" />
           <div className="text-center">
@@ -31,7 +31,7 @@ const Cards = () => {
           </div>
         </div>
       </div>
-      <div className="w-full md:w-1/3 px-4 mb-8 drop-shadow-xl">
+      <div className="w-full md:w-1/3 px-4 mb-8 drop-shadow-xl cardHover">
         <div className="p-6 bg-gray-900 h-full">
           <img className="mx-auto mt-10 mb-8 w-24 h-24" src={cardIcon3}alt="Customer Support" />
           <div className="text-center">
