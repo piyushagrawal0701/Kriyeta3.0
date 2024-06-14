@@ -3,6 +3,7 @@ import Hero1 from "../../Components/Hero Section/Hero1";
 // import Hero2 from "../../Components/Hero Section/Hero2";
 import Cards from "../../Components/Cards/Cards1/Cards1";
 import Hero3 from "../../Components/Hero Section/Hero3";
+import Faq from "../../Components/Faq/Faq";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       {/* <Hero2/> */}
       {/* <Hero3/> */}
       {/* <Cards/> */}
+      <Faq/>
     </>
   );
 };

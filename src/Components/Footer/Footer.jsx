@@ -115,7 +115,7 @@ const Footer = () => {
                     href=""
                     className="text-[#B0B0B0] hover:text-[#3b82f6]"
                   >
-                    Pizzas
+                    Security
                   </a>
                 </li>
                 <li>

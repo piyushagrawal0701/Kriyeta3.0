@@ -1,10 +1,10 @@
 import React from 'react'
-import Field1 from '../../Components/Fields section/Field1'
+// import Field1 from '../../Components/Fields section/Field1'
 
 const Dashboard = () => {
   return (
-    <div>
-        <Field1/>
+    <div className='pt-48 text-white text-center text-4xl h-screen'>
+        <h1>Dashboard</h1>
 
     </div>
   )

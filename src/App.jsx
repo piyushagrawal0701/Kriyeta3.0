@@ -3,10 +3,9 @@ import './App.css'
 import NavbarFinal from './Components/Navbar/Navbar_Final'
 import ScrollToTop from './Components/Scroll to top/ScrollToTop'
 import { Route, Routes } from 'react-router-dom'
-import Faq from './Components/Faq/Faq'
 import Footer from './Components/Footer/Footer'
 import { ToastContainer } from 'react-toastify'
-import { AuthProvider } from './Context/AuthContext'
+import { AuthProvider, useAuth } from './Context/AuthContext'
 import Signup from './Pages/Signup/Signup'
 import Login from './Pages/Login/Login'
 import Dashboard from './Pages/Dashboard/Dashboard'
@@ -46,7 +45,6 @@ function App() {
           <Route path="/home" element={<Home />} />
         </Routes>
 
-        <Faq />
         <Footer />
       </AuthProvider>
     </>
