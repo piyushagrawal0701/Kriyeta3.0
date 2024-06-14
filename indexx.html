@@ -14,11 +14,13 @@
             <input type="number" name="oldbalanceOrg" placeholder="Old Balance Original" required="required" step="0.01" />
             <input type="number" name="newbalanceOrig" placeholder="New Balance Original" required="required" step="0.01"/>
             <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+
+            
         </form>
         <br>
 
 
-        
+
         <br>
         {% if prediction_text %}
             <h2>{{ prediction_text }}</h2>

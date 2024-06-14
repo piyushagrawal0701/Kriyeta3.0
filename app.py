@@ -1,34 +1,39 @@
-#flask app
-
-import pickle
-import numpy as np
-import sklearn 
 
 from flask import Flask, request, jsonify, render_template
+from flask_cors import CORS
+import pickle
 
+app = Flask(__name__)
+CORS(app)  # Enable CORS
 
-app= Flask(__name__)
+# Load the model
+with open('model.pkl', 'rb') as model_file:
+    model = pickle.load(model_file)
 
-#loading the pickle file(model.pkl)
-#opening in reading mode
+@app.route('/')
+def home():
+    return render_template('Kriyeta3.0/index.html')
 
+@app.route('/predict', methods=['POST'])
+def predict():
+    # Retrieve JSON data from request
+    data = request.json
+    step = float(data['step'])
+    type_ = float(data['type'])
+    amount = float(data['amount'])
+    oldbalanceOrg = float(data['oldbalanceOrg'])
+    newbalanceOrig = float(data['newbalanceOrig'])
 
-model= (pickle.load("name", "rb"))
+    # Make prediction
+    prediction = model.predict([[step, type_, amount, oldbalanceOrg, newbalanceOrig]])
 
+    # Interpret the result
+    result = "Fraud has happened" if prediction[0] == 0 else "Fraud has not happened"
 
-#loading the html file 
+    # Return result as JSON
+    return jsonify({'prediction': result})
 
-@app.route("/")
-def Home():
-    return render_template("indexx.html")
-
-@app.route("/predict", method= ["POST"])
-def predict():   
-                    #loading the values
-
-
-
-
-
+if __name__ == '__main__':
+    app.run(port=5173, debug=True)
 
 
