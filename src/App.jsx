@@ -11,6 +11,8 @@ import Login from './Pages/Login/Login'
 import Dashboard from './Pages/Dashboard/Dashboard'
 import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
+import LineChart from './Components/Line Chart/LineChart'
+import ReportDashboard from './Pages/Report Dashboard/ReportDashboard'
 
 function App() {
 
@@ -45,6 +47,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About/>} />
+          <Route path="/reportDashboard" element={<ReportDashboard/>} />
         </Routes>
 
         <Footer />
