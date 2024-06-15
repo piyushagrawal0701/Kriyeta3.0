@@ -1,5 +1,6 @@
 import React from "react";
 import FileUpload from "../../Components/File Upload/FileUpload";
+import { Link } from "react-router-dom";
 // import Field1 from '../../Components/Fields section/Field1'
 
 const Dashboard = () => {
@@ -19,6 +20,12 @@ const Dashboard = () => {
 
       <div className="flex justify-center items-center text-white pb-20">
         <FileUpload />
+      </div>
+      <div className="flex justify-center items-center text-white pb-20">
+      <Link to="/reportDashboard">
+      <button class="text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
+          View Report
+        </button></Link>
       </div>
     </>
   );

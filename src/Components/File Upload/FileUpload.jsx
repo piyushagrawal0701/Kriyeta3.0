@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const FileUpload = () => {
   const [file, setFile] = useState(null);
@@ -10,11 +10,11 @@ const FileUpload = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const formData = new FormData();
-    formData.append('file', file);
+    formData.append("file", file);
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/upload', {
-        method: 'POST',
+      const response = await fetch("http://127.0.0.1:5000/upload", {
+        method: "POST",
         body: formData,
       });
 
@@ -34,8 +34,8 @@ const FileUpload = () => {
       <form onSubmit={handleSubmit}>
         <input type="file" accept=".csv" onChange={handleFileChange} required />
         <button class="text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
-              Upload
-            </button>
+          Upload
+        </button>
       </form>
     </div>
   );
