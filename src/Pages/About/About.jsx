@@ -129,7 +129,7 @@ const About = () => {
       </section>
 
       {/* ----------- OUR TEAM -------------    */}
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-500 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div
             className="flex flex-col text-center w-full mb-20"
@@ -137,11 +137,11 @@ const About = () => {
             data-aos-duration="1000"
             data-aos-delay="0"
           >
-            <h1 className="sm:text-4xl text-3xl font-semibold title-font mb-4 text-gray-900 tracking-widest">
-              OUR <span className="text-[#e72129] font-semibold">TEAM</span>
+            <h1 className="sm:text-4xl text-3xl font-semibold title-font mb-4 text-gray-200 tracking-widest">
+              OUR <span className="text-[#3b82f6] font-semibold">TEAM</span>
             </h1>
             <p className="lg:w-2/3 mx-auto  sm:text-[24px] text-[20px] font-medium">
-              <span className="text-[#e72129] font-medium">Winning</span> with
+              <span className="text-[#3b82f6] font-medium">Winning</span> with
               heart for the hourly workforce
             </p>
           </div>
@@ -160,10 +160,10 @@ const About = () => {
                   src={member1}
                 />
                 <div className="flex-grow sm:pl-8">
-                  <h1 className="font-medium text-[24px] text-gray-900">
+                  <h1 className="font-medium text-[24px] text-gray-200">
                     Piyush Agrawal
                   </h1>
-                  <h1 className="text-[#e72129] font-medium mb-3">
+                  <h1 className="text-[#3b82f6] font-medium mb-3">
                     Front-end Web Developer
                   </h1>
                   <p className="mb-4 font-medium">
@@ -174,38 +174,17 @@ const About = () => {
                   </p>
 
                   <a href="https://piyushportfolio7.netlify.com">
-                    <p className="pb-2 -mt-2 text-red-500 font-medium cursor-pointer hover:text-blue-500">
+                    <p className="pb-2 -mt-2 text-blue-500 font-medium cursor-pointer hover:text-blue-500">
                       View Portfolio
                     </p>
                   </a>
 
-                  <span className="inline-flex gap-2">
-                    <a href="https://www.linkedin.com/in/piyushagrawal0701/">
-                      <i
-                        style={{ transition: "all 0.3s" }}
-                        className="fa-brands fa-linkedin-in bg-[#efefef] p-4 rounded-full hover:bg-[#ff0366] hover:text-white"
-                      ></i>
-                    </a>
-
-                    <a href="https://www.instagram.com/piyushagrawal0701/">
-                      <i
-                        style={{ transition: "all 0.3s" }}
-                        className="fa-brands fa-instagram bg-[#efefef] p-4 rounded-full px-[14px] hover:bg-[#ff0366] hover:text-white"
-                      ></i>
-                    </a>
-
-                    <a href="https://wa.me/+918839170393" target="_blank">
-                      <i
-                        style={{ transition: "all 0.3s" }}
-                        className="fa-brands fa-whatsapp bg-[#efefef] p-4 rounded-full hover:bg-[#25D366] hover:text-white"
-                      ></i>
-                    </a>
-                  </span>
+                  
                 </div>
               </div>
             </div>
 
-            {/* ----------- 2 ( PRERIT SHARMA ) ------------- */}
+            {/* ----------- 2 ( RINCI ATREY ) ------------- */}
 
             <div
               className="p-4 lg:w-1/2 team-member-card"
@@ -220,11 +199,11 @@ const About = () => {
                   src={member2}
                 />
                 <div className="flex-grow sm:pl-8">
-                  <h1 className="font-medium text-[24px] text-gray-900">
-                    Prerit Sharma
+                  <h1 className="font-medium text-[24px] text-gray-200">
+                  Rinci Atrey
                   </h1>
-                  <h1 className="text-[#e72129] font-medium mb-3">
-                    Full Stack Developer
+                  <h1 className="text-[#3b82f6] font-medium mb-3">
+                    Al & Ml Specialist
                   </h1>
                   <p className="mb-4 font-medium">
                     Meet Prerit, our skilled full stack developer with over 1
@@ -235,33 +214,89 @@ const About = () => {
                   </p>
 
                   <a href="https://new-portfolio-kappa-nine.vercel.app/">
-                    <p className="pb-2 -mt-2 text-red-500 font-medium cursor-pointer hover:text-blue-500">
+                    <p className="pb-2 -mt-2 text-blue-500 font-medium cursor-pointer hover:text-blue-500">
                       View Portfolio
                     </p>
                   </a>
 
-                  <span className="inline-flex gap-2">
-                    <a href="https://www.linkedin.com/in/prerit-sharma-1476882a6/">
-                      <i
-                        style={{ transition: "all 0.3s" }}
-                        className="fa-brands fa-linkedin-in bg-[#efefef] p-4 rounded-full hover:bg-[#ff0366] hover:text-white"
-                      ></i>
-                    </a>
+                  
+                </div>
+              </div>
+            </div>
+            {/* ----------- 3 ( Nyasa Sharma ) ------------- */}
+            <div
+              className="p-2 lg:w-1/2 team-member-card max-md:mb-10"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="0"
+            >
+              <div className="h-full flex sm:flex-row flex-col items-start sm:items-center sm:justify-start justify-center sm:text-left">
+                <img
+                  alt="team"
+                  className="flex-shrink-0 rounded-lg w-48 h-52 object-contain bg-white sm:mb-0 mb-4"
+                  src={member1}
+                />
+                <div className="flex-grow sm:pl-8">
+                  <h1 className="font-medium text-[24px] text-gray-200">
+                  Nyasa Sharma
+                  </h1>
+                  <h1 className="text-[#3b82f6] font-medium mb-3">
+                    Front-end Web Developer
+                  </h1>
+                  <p className="mb-4 font-medium">
+                    Meet Piyush, our skilled web developer with over 1 year of
+                    experience. He is the creative mind behind the captivating
+                    front-end of the Sathi Sewa Foundation website, showcasing
+                    his talent for innovative and user-friendly design.
+                  </p>
 
-                    <a href="https://www.instagram.com/prerit_sh/">
-                      <i
-                        style={{ transition: "all 0.3s" }}
-                        className="fa-brands fa-instagram bg-[#efefef] p-4 rounded-full px-[14px] hover:bg-[#ff0366] hover:text-white"
-                      ></i>
-                    </a>
+                  <a href="https://piyushportfolio7.netlify.com">
+                    <p className="pb-2 -mt-2 text-blue-500 font-medium cursor-pointer hover:text-blue-500">
+                      View Portfolio
+                    </p>
+                  </a>
 
-                    <a href="https://wa.me/+918979384648" target="_blank">
-                      <i
-                        style={{ transition: "all 0.3s" }}
-                        className="fa-brands fa-whatsapp bg-[#efefef] p-4 rounded-full hover:bg-[#25D366] hover:text-white"
-                      ></i>
-                    </a>
-                  </span>
+                  
+                </div>
+              </div>
+            </div>
+
+            {/* ----------- 4 ( Sahil Chourasia ) ------------- */}
+
+            <div
+              className="p-4 lg:w-1/2 team-member-card"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="100"
+            >
+              <div className="h-full flex sm:flex-row flex-col items-start sm:items-center sm:justify-start justify-center sm:text-left">
+                <img
+                  alt="team"
+                  className="flex-shrink-0 rounded-lg w-48 h-52 object-cover object-center sm:mb-0 mb-4"
+                  src={member2}
+                />
+                <div className="flex-grow sm:pl-8">
+                  <h1 className="font-medium text-[24px] text-gray-200">
+                  Sahil
+                  </h1>
+                  <h1 className="text-[#3b82f6] font-medium mb-3">
+                    Python Developer
+                  </h1>
+                  <p className="mb-4 font-medium">
+                    Meet Prerit, our skilled full stack developer with over 1
+                    year of experience. He is the creative mind behind the
+                    captivating back-end of the Sathi Sewa Foundation website,
+                    showcasing his talent for innovative and user-friendly
+                    design.
+                  </p>
+
+                  <a href="https://new-portfolio-kappa-nine.vercel.app/">
+                    <p className="pb-2 -mt-2 text-blue-500 font-medium cursor-pointer hover:text-blue-500">
+                      View Portfolio
+                    </p>
+                  </a>
+
+                  
                 </div>
               </div>
             </div>
