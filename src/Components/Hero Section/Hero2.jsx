@@ -3,7 +3,7 @@ import React from 'react'
 const Hero2 = () => {
   return (
     <>
-    <section className="text-[#b0b0b0] text-gray-600 body-font overflow-hidden">
+    <section className="text-[#b0b0b0] text-gray-600 body-font overflow-hidden bg-custom-gradient">
   <div className="container px-5 py-24 mx-auto">
     <div className=" mx-auto flex flex-wrap">
       <img alt="ecommerce" className="lg:w-2/5 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://i.pinimg.com/564x/12/bd/05/12bd059f106729fb3db9f82c3d159e09.jpg"/>
