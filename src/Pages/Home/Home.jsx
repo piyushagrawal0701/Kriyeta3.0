@@ -9,7 +9,7 @@ import Howitworks from "../../Components/How it works/Howitworks";
 const Home = () => {
   return (
     <>
-      <div className="w-[100%] h-screen flex justify-center items-center">
+      <div className="w-[100%] h-screen flex justify-center items-center [background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%)];">
       <Hero1 />
       </div>
       {/* <Hero2/> */}

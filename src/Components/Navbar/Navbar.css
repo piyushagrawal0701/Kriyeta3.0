@@ -27,7 +27,7 @@
 	justify-content: space-around;
 	align-items: center;
 	padding: 8px 0;
-	/* border-radius: 4px; */
+	border-radius: 4px;
 }
 .header-main:hover{
 	box-shadow: 0 0 0.3px 0.3px rgb(195, 188, 188);
