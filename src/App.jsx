@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import NavbarFinal from './Components/Navbar/Navbar_Final'
 import ScrollToTop from './Components/Scroll to top/ScrollToTop'
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import Footer from './Components/Footer/Footer'
 import { ToastContainer } from 'react-toastify'
 import { AuthProvider, useAuth } from './Context/AuthContext'
@@ -11,8 +11,9 @@ import Login from './Pages/Login/Login'
 import Dashboard from './Pages/Dashboard/Dashboard'
 import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
-import LineChart from './Components/Line Chart/LineChart'
+// import LineChart from './Components/Line Chart/LineChart'
 import ReportDashboard from './Pages/Report Dashboard/ReportDashboard'
+import Contact from './Pages/Contact/Contact'
 
 function App() {
 
@@ -47,6 +48,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About/>} />
+          <Route path="/contact" element={<Contact/>} />
           <Route path="/reportDashboard" element={<ReportDashboard/>} />
         </Routes>
 

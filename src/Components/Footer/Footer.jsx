@@ -21,7 +21,7 @@ const Footer = () => {
     <>
       {/* <!-- --------- FOOTER SECTION ---------  --> */}
 
-      <footer className="text-[#B0B0B0] body-font max-md:mt-10 footer-section" style={{borderTop:"5px solid #3b82f6"}}>
+      <footer className="text-[#B0B0B0] body-font max-md:mt-10 footer-section" style={{borderTop:"2px solid #3b82f6"}}>
         <div className="container px-5 sm:py-24 pt-8 pb-4 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-44 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a className="flex flex-col title-font font-medium items-center md:justify-start text-center justify-center text-[#B0B0B0]">
