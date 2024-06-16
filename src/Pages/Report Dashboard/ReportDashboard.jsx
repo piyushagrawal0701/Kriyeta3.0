@@ -6,7 +6,7 @@ import { database } from "../../firebase";
 import BarChart from "../../Components/Bar Chart/BarChart";
 
 const ReportDashboard = () => {
-  const [totalTransactions, setTotalTransactions] = useState(40); // Assuming total transactions are 40
+  const [totalTransactions, setTotalTransactions] = useState(100); // Assuming total transactions are 40
   const [totalFraud, setTotalFraud] = useState(0);
   const [securedTransactions, setSecuredTransactions] = useState(0);
 
